@@ -1,0 +1,68 @@
+digraph {
+	graph [rankdir=LR]
+	ini [shape=point]
+	s0
+	ini -> s0
+	s1 [shape=doublecircle]
+	s2 [shape=doublecircle]
+	s3 [shape=doublecircle]
+	s4 [shape=doublecircle]
+	s5 [shape=doublecircle]
+	s6 [shape=doublecircle]
+	s7
+	s8
+	s9
+	s10 [shape=doublecircle]
+	s11 [shape=doublecircle]
+	s12 [shape=doublecircle]
+	s13 [shape=doublecircle]
+	s14
+	s15 [shape=doublecircle]
+	s16
+	s17 [shape=doublecircle]
+	s18
+	s19
+	s20 [shape=doublecircle]
+	s21
+	s22
+	s23 [shape=doublecircle]
+	s24 [shape=doublecircle]
+	s25
+	s26 [shape=doublecircle]
+	s27 [shape=doublecircle]
+	s28 [shape=doublecircle]
+	s29 [shape=doublecircle]
+	s30 [shape=doublecircle]
+	s0 -> s1 [label="+"]
+	s0 -> s2 [label="-"]
+	s0 -> s3 [label="*"]
+	s0 -> s4 [label=x]
+	s0 -> s5 [label="/"]
+	s0 -> s6 [label="^"]
+	s0 -> s7 [label=s]
+	s0 -> s8 [label=c]
+	s0 -> s9 [label=t]
+	s0 -> s10 [label="(,[,{"]
+	s0 -> s11 [label="),],}"]
+	s0 -> s12 [label="0,1,2,3,4,5,6,7,8,9"]
+	s0 -> s13 [label="π"]
+	s0 -> s14 [label=P]
+	s0 -> s15 [label=e]
+	s0 -> s16 [label=l]
+	s3 -> s17 [label="*"]
+	s7 -> s18 [label=i]
+	s8 -> s19 [label=o]
+	s9 -> s20 [label=g]
+	s9 -> s21 [label=a]
+	s12 -> s12 [label="0,1,2,3,4,5,6,7,8,9"]
+	s12 -> s22 [label="."]
+	s14 -> s23 [label=I]
+	s16 -> s24 [label=n]
+	s16 -> s25 [label=o]
+	s18 -> s26 [label=n]
+	s19 -> s27 [label=s]
+	s21 -> s28 [label=n]
+	s22 -> s29 [label="0,1,2,3,4,5,6,7,8,9"]
+	s25 -> s30 [label=g]
+	s29 -> s29 [label="0,1,2,3,4,5,6,7,8,9"]
+}
